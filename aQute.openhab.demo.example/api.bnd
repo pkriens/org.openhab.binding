@@ -1,0 +1,19 @@
+#
+# AQUTE OPENHAB DEMO EXAMPLE API
+#
+
+Bundle-Description: \
+	AQUTE OPENHAB DEMO EXAMPLE API \
+	\
+	${warning;Please update this Bundle-Description in aQute.openhab.demo.example/api.bnd}
+	
+	
+Export-Package:  \
+	demo.api
+
+Require-Capability: \
+	compile-only
+
+
+-includeresource: {readme.md}
+

@@ -1,0 +1,27 @@
+Bundle-Name: ZWave Binding
+Bundle-Version: 2.0.0.${tstamp}
+Private-Package: \
+	org.openhab.binding.zwave.*
+	
+Bundle-Activator: org.openhab.binding.zwave.internal.ZWaveActivator
+Export-Package: \
+	org.openhab.binding.zwave, \
+ 	org.openhab.binding.zwave.handler
+
+
+
+-includeresource: \
+	{README.md}, \
+	{ESH-INF=ESH-INF}
+	
+-buildpath: \
+	osgi.enroute.base.api,\
+	org.eclipse.smarthome.core.thing;version=0.8,\
+	org.eclipse.smarthome.core;version=0.8,\
+	org.eclipse.smarthome.config.core;version=0.8,\
+	org.eclipse.smarthome.config.discovery;version=0.8,\
+	org.apache.commons.lang,\
+	com.google.gson,\
+	com.google.guava,\
+	com.neuronrobotics__nrjavaserial,\
+	xstream

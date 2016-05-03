@@ -1,0 +1,26 @@
+Bundle-Name: Urtsi Binding
+Bundle-Version: 2.0.0.qualifier
+Private-Package: \
+	 org.openhab.binding.urtsi.*
+Export-Package: \
+	org.openhab.binding.urtsi, \
+	org.openhab.binding.urtsi.handler
+
+
+
+-includeresource: \
+	{README.md}, \
+	{ESH-INF=ESH-INF}
+	
+-buildpath: \
+	osgi.enroute.base.api,\
+	org.eclipse.smarthome.core.thing;version=0.8,\
+	org.eclipse.smarthome.core;version=0.8,\
+	org.eclipse.smarthome.config.core;version=0.8,\
+	org.eclipse.smarthome.config.discovery;version=0.8,\
+	org.apache.commons.io,\
+	com.google.gson,\
+	com.neuronrobotics__nrjavaserial,\
+	com.google.guava
+
+

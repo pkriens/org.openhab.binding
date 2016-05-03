@@ -1,0 +1,16 @@
+#
+# AQUTE OPENHAB DEMO EXAMPLE	BUNDLE 
+#
+
+Bundle-Description: \
+	The provider bundle for aQute.openhab.demo.example. \
+	\
+	${warning;Please update this Bundle-Description in aQute.openhab.demo.example/api.bnd}
+	
+Export-Package:  \
+	demo.api
+
+Private-Package:  \
+	demo.provider
+
+-includeresource: {readme.md}

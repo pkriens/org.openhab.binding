@@ -1,0 +1,15 @@
+#
+# AQUTE OPENHAB DEMO EXAMPLE GOGO COMMAND BUNDLE (demo) 
+#
+
+Bundle-Description: \
+	Provides a command to the Gogo shell. \
+	\
+	${warning;Please update this Bundle-Description in aQute.openhab.demo.example/command.bnd}
+	
+
+Private-Package:  \
+	demo.command
+	
+	
+-includeresource: {readme.md}
