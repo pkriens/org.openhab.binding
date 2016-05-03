@@ -1,5 +1,5 @@
 Bundle-Name: HarmonyHub Binding
-Bundle-Version: 2.0.0.qualifier
+
 Private-Package: \
 	org.openhab.binding.harmonyhub.*
 
@@ -11,7 +11,6 @@ Bundle-ClassPath: \
 	${lib.classpath}
 	
 -includeresource: \
-	{README.md}, \
 	{about.html}, \
 	{ESH-INF=ESH-INF}, \
 	${lib.include}

@@ -7,7 +7,6 @@ Export-Package: \
 	org.openhab.binding.squeezebox.handler
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 -buildpath: \

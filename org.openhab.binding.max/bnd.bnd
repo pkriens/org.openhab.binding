@@ -8,7 +8,6 @@ Private-Package: \
 
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 

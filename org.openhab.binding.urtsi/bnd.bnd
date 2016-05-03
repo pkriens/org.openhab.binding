@@ -1,5 +1,5 @@
 Bundle-Name: Urtsi Binding
-Bundle-Version: 2.0.0.qualifier
+
 Private-Package: \
 	 org.openhab.binding.urtsi.*
 Export-Package: \
@@ -9,7 +9,6 @@ Export-Package: \
 
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 -buildpath: \

@@ -1,5 +1,7 @@
 Bundle-Name: Freebox Binding
-Bundle-Version: 2.0.0.${tstamp}
+
+Private-Package: \
+	org.openhab.binding.freebox.*
 
 Export-Package: \
 	org.openhab.binding.freebox, \
@@ -10,7 +12,6 @@ Bundle-ClassPath: ${lib.classpath}
 
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}, \
 	${lib.include}
 	

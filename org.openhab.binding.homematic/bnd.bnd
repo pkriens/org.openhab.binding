@@ -7,8 +7,8 @@ Private-Package: \
 	org.openhab.binding.homematic.*
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}, \
+	resources, \
 	${lib.include}
 	
 

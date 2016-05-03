@@ -8,7 +8,6 @@ Export-Package: \
 	org.openhab.binding.pulseaudio.handler
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 -buildpath: \

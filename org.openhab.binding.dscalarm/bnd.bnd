@@ -1,5 +1,4 @@
 Bundle-Name: DSCAlarm Binding
-Bundle-Version: 2.0.0.${tstamp}
 Export-Package: \
 	org.openhab.binding.dscalarm, \
  	org.openhab.binding.dscalarm.handler
@@ -7,7 +6,6 @@ Private-Package: \
 	org.openhab.binding.dscalarm.*
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 

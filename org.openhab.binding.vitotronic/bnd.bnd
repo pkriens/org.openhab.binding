@@ -7,7 +7,6 @@ Private-Package: \
 	org.openhab.binding.vitotronic.*
 	
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 -buildpath: \

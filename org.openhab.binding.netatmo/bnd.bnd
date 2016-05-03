@@ -6,7 +6,6 @@ Export-Package: \
 	org.openhab.binding.netatmo.handler
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}, \
 	${lib.include}
 

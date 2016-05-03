@@ -1,5 +1,5 @@
 Bundle-Name: Tesla Binding
-Bundle-Version: 2.0.0.qualifier
+
 Private-Package: \
 	org.openhab.binding.tesla.*
 Export-Package: \
@@ -7,7 +7,6 @@ Export-Package: \
 	org.openhab.binding.tesla.handler
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 -buildpath: \

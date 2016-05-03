@@ -1,5 +1,5 @@
 Bundle-Name: Samsung Tv Binding
-Bundle-Version: 2.0.0.qualifier
+
 Private-Package: \
 	org.openhab.binding.samsungtv.*
 	
@@ -8,7 +8,6 @@ Export-Package: \
  	org.openhab.binding.samsungtv.handler
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 -buildpath: \

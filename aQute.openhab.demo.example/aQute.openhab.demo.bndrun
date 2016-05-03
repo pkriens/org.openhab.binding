@@ -13,15 +13,13 @@ JPM-Command:				demo
 		jdb=5005; \
 		host=localhost; \
 		shell=-1
-		
+	
+# This is going to work soon
+#-distro: openhab-2.0.0.SNAPSHOT.jar
 
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=aQute.openhab.demo.example.provider)',\
 	osgi.identity;filter:='(osgi.identity=aQute.openhab.demo.example.command)',\
-	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.runtime)',\
-	osgi.identity;filter:='(osgi.identity=org.apache.felix.webconsole)',\
-	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
-	osgi.identity;filter:='(osgi.identity=osgi.enroute.webconsole.xray.provider)',\
 	osgi.identity;filter:='(osgi.identity=org.openhab.binding.astro)'
 
 -xrunbundles: \

@@ -7,7 +7,6 @@ Private-Package: \
 Bundle-ClassPath: ${lib.classpath}
  
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}, \
 	${lib.include}
 

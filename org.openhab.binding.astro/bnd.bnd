@@ -1,5 +1,4 @@
 Bundle-Name: 			Astro Binding
-Bundle-Version: 		2.0.0.${tstamp}
 Bundle-Vendor: 			Gerhard Riegler
 Bundle-Description:		\
 	Astro something
@@ -14,7 +13,6 @@ Private-Package: \
 	org.openhab.binding.astro.*
 
 -includeresource: \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 

@@ -1,5 +1,7 @@
 .gradle/
 */generated/
 */target/
+*/bin/
+*/bin_test/
 enroute.zip
 .metadata

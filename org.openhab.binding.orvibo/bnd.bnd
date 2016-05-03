@@ -13,7 +13,6 @@ Bundle-ClassPath: ${lib.classpath}
 
 -includeresource: \
 	${lib.include}, \
-	{README.md}, \
 	{ESH-INF=ESH-INF}
 	
 -buildpath: \
