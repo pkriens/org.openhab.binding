@@ -2,7 +2,7 @@ Bundle-Name: Openhab Max! Binding Tests
 Bundle-Version: 2.0.0.${tstamp}
 Fragment-Host: org.openhab.binding.max
 
-Private-Package: org.openhab.binding.max.internal.command
+Private-Package: org.openhab.binding.max.internal.*
 Import-Package: !org.openhab.binding.max.*, *
 
 -buildpath: \

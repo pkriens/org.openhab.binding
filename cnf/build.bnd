@@ -65,6 +65,6 @@ Bundle-License:         https://opensource.org/licenses/EPL-1.0; \
 
 jars = ${lsr;lib;*.jar}
 lib.include: ${replace;${jars};.+;lib/$0=lib/$0}
-lib.buildpath: ${replace;${jars};.+;lib/$0\\;version=file}
+lib.buildpath: ${replace;${jars};.+;lib/$0\\;version=file\\;packages=*}
 lib.classpath: .,${replace;${jars};.+;lib/$0}
 

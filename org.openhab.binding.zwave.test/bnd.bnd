@@ -11,7 +11,7 @@ Private-Package: \
 	userdata=userdata
 	
 -buildpath: \
-	org.openhab.binding.zwave;version=latest,\
+	org.openhab.binding.zwave;version=latest;packages=*,\
 	osgi.enroute.base.api,\
 	org.eclipse.smarthome.core.thing;version=0.8,\
 	org.eclipse.smarthome.core;version=0.8,\
