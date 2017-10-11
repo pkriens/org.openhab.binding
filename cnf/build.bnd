@@ -6,12 +6,20 @@
 # The remote repo with all OpenHAB deps
 #
 
+-plugin.8.Maven:  \
+	aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
+		snapshotUrls=https://oss.sonatype.org/content/groups/osgi; \
+		releaseUrls=https://repo1.maven.org/maven2/; \
+		pom=${build}/central.xml; \
+		name=Maven; \
+		location=${build}/cache/enroute-central.xml
+
+
 -plugin.openhab = \
 	aQute.bnd.deployer.repository.FixedIndexedRepo; \
 	        name		=       OpenHab; \
 	        locations	=       http://openhab2.s3-website-us-east-1.amazonaws.com/index.xml.gz
 	        
-
 
 #
 # Override the OSGi enRoute release repo with a Maven repository

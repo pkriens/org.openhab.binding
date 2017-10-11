@@ -1,7 +1,5 @@
+.DS_Store
 .gradle/
-*/generated/
-*/target/
-*/bin/
-*/bin_test/
+/generated/
 enroute.zip
 .metadata

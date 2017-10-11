@@ -1,0 +1,18 @@
+#-include ~jar:${fileuri;${repo;org.openhab.binding.hue}}!/META-INF/MANIFEST.MF
+
+-buildpath: \
+	osgi.enroute.base.api,\
+	org.openhab.binding.hue;packages=*
+	
+	
+Private-Package: com.qivicon.binding.hue
+	
+Bundle-ClassPath  .,org.openhab.binding.hue.jar
+
+-includeresource: \
+	org.openhab.binding.hue.jar=${repo;org.openhab.binding.hue}, \
+	@${repo;org.openhab.binding.hue}!/OSGI-INF/genericbindingprovider.xml, \
+	OSGI-INF/huebinding.xml=huebinding.xml, \
+	about.html
+	
+-sources: false
